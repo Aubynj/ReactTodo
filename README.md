@@ -2,6 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Before you run the project, run the following command to install the dependencies for the project. 
+
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -66,3 +70,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Authors
+* John Aubyn  _Initial Work_ [Developer](http://aubynj.github.io)
+
+### License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+--------------
+### Acknowledgement
+* Inspiration
+* Hardwork
+* etc
+
+#### Happy Coding!
