@@ -1,5 +1,6 @@
 import Dispatcher from '../Dispatcher/Dispatcher';
 
+// Exporting actions functions to App index
 export default {
     createTodo : function(text){
         Dispatcher.dispatch({

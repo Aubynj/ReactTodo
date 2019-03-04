@@ -20,18 +20,11 @@ class App extends Component {
 	componentWillMount(){
         TodoStor.on("created", () => {
             console.log("Event fired")
-            this.setState({
-				todoData : TodoStor.getAllTodo(),
+			this.setState({
+				todoData : TodoStor.getAllTodo()
 			})
         })
 	}
-
-	// componentDidMount(){
-	// 	TodoStor.on("fetch", () => {
-    //         // console.log("Event fired")
-    //         Actions.getAllTodo()
-    //     })
-	// }
 
 	// Fetching Todo items with Flux Actions
 	fetchAllTodo(){
@@ -89,8 +82,7 @@ class App extends Component {
 								</section>
 							</form>
 							<ul className="list-group">
-								{/* {todo_list} */}
-								if (todo_list) 
+								{todo_list}
 							</ul>
 						</section>
 						<section className="col-md-4"></section>
@@ -103,21 +95,3 @@ class App extends Component {
 
 
 export default App;
-
-
-    //   <div className="App">
-    //     <header className="App-header">
-    //       <img src={logo} className="App-logo" alt="logo" />
-    //       <p>
-    //         Edit <code>src/App.js</code> and save to reload.
-    //       </p>
-    //       <a
-    //         className="App-link"
-    //         href="https://reactjs.org"
-    //         target="_blank"
-    //         rel="noopener noreferrer"
-    //       >
-    //         Learn React
-    //       </a>
-    //     </header>
-    //   </div>
