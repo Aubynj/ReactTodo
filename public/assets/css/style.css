@@ -1,0 +1,53 @@
+/* 
+    Custom CSS for Project
+    Author: AubynJ
+    License: Swedish Ason Group AB (SAGA)
+*/
+.logo-container{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+.App-logo{
+    animation: App-logo-Spin 20s infinite linear;
+    width: 100px;
+    height: 100px;   
+}
+
+.list-group-item-list{
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom : 5px;
+    border-radius: 10px;
+}
+
+.close-list{
+    position: absolute;
+    right : 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input-field-big{
+    height: 50px;
+    font-size: 15px;
+}
+
+.btn-large{
+    height: 50px;
+}
+
+
+@keyframes App-logo-Spin{
+    from {
+        tranform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
